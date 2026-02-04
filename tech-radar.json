@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Moodle",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://moodle.org/\">Moodle</a></strong> is an open-source learning management system (LMS) that has become the de facto standard for educational institutions worldwide. Our campus teams have successfully deployed Moodle for course management, student assessment, and collaborative learning. The platform's extensive plugin ecosystem and strong community support make it an excellent choice for institutions looking to provide comprehensive online learning experiences. With its robust features for assignments, quizzes, forums, and gradebook management, Moodle continues to be our recommended platform for campus-wide learning management.</p>"
+  },
+  {
+    "name": "Canvas LMS",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.instructure.com/canvas\">Canvas LMS</a></strong> is a modern, cloud-based learning management system that offers an intuitive user interface and excellent mobile support. Our campus has found Canvas particularly effective for institutions prioritizing user experience and modern design. The platform's API-first architecture enables seamless integration with other campus systems, and its comprehensive analytics tools help educators track student engagement and performance. Canvas's reliability and scalability make it suitable for large institutions with diverse learning needs.</p>"
+  },
+  {
+    "name": "Microsoft Teams for Education",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.microsoft.com/en-us/education/products/teams\">Microsoft Teams for Education</a></strong> has become essential for hybrid and remote learning environments. Our campus teams leverage Teams for virtual classrooms, student collaboration, and administrative communication. The integration with Office 365 provides a seamless workflow for document sharing, assignments, and grading. Teams' breakout rooms, live captions, and recording capabilities enhance the learning experience, while its security features ensure compliance with educational data privacy requirements.</p>"
+  },
+  {
+    "name": "Zoom for Education",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://zoom.us/education\">Zoom for Education</a></strong> offers specialized features for educational institutions, including virtual classrooms, breakout rooms, and polling. While our campus has successfully used Zoom for synchronous learning sessions, we recommend careful evaluation of privacy settings and integration capabilities with existing LMS platforms. The platform's ease of use and reliability make it popular among educators, but institutions should ensure proper configuration to meet FERPA and other compliance requirements.</p>"
+  },
+  {
+    "name": "Blackboard Learn",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.blackboard.com/teaching-learning/learning-management/blackboard-learn\">Blackboard Learn</a></strong> was once a dominant player in the LMS market, but our campus teams have observed declining adoption and user satisfaction compared to modern alternatives. While Blackboard offers comprehensive features and enterprise support, its user interface feels dated, and the platform can be complex to configure and maintain. We recommend institutions currently using Blackboard to assess migration paths to more modern solutions like Canvas or Moodle, unless there are specific integration requirements that necessitate staying with Blackboard.</p>"
+  },
+  {
+    "name": "React",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://react.dev/\">React</a></strong> has become our standard choice for building modern campus web applications and student portals. Our development teams appreciate React's component-based architecture, which enables reusable UI elements across multiple campus applications. The extensive ecosystem of libraries and strong community support make React ideal for building responsive, interactive interfaces for course catalogs, student information systems, and campus event platforms. React's learning curve is manageable for new developers, making it suitable for campus IT teams.</p>"
+  },
+  {
+    "name": "TypeScript",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.typescriptlang.org/\">TypeScript</a></strong> has proven invaluable for our campus development teams working on large-scale applications. The type safety it provides reduces bugs and improves code maintainability, which is crucial for student information systems and financial aid platforms where data accuracy is paramount. TypeScript's excellent IDE support and gradual adoption path allow teams to migrate existing JavaScript codebases incrementally. We recommend TypeScript for all new campus web application projects.</p>"
+  },
+  {
+    "name": "Python",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.python.org/\">Python</a></strong> is our preferred language for data analysis, automation, and backend services in campus environments. Python's extensive libraries for data science (pandas, numpy) make it ideal for institutional research and analytics. Our teams use Python for automating administrative tasks, processing student data, and building APIs. The language's readability and extensive documentation make it accessible to both IT staff and academic researchers, fostering collaboration across campus departments.</p>"
+  },
+  {
+    "name": "Node.js",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://nodejs.org/\">Node.js</a></strong> serves as our standard runtime for building scalable backend services and APIs for campus applications. The ability to use JavaScript on both frontend and backend reduces context switching for development teams. Node.js excels at handling I/O-intensive operations common in campus systems, such as processing enrollment data, managing library systems, and handling course registration. Our teams leverage Node.js with Express.js for RESTful APIs and with Socket.io for real-time features like chat systems and live notifications.</p>"
+  },
+  {
+    "name": "Django",
+    "ring": "Trial",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.djangoproject.com/\">Django</a></strong> is a high-level Python web framework that our campus teams are evaluating for administrative applications. Django's \"batteries-included\" philosophy provides built-in features for authentication, admin interfaces, and ORM that can accelerate development of internal tools. The framework's security features and built-in admin panel make it attractive for building student information system modules and faculty management tools. We're trialing Django for projects where rapid development and administrative interfaces are priorities.</p>"
+  },
+  {
+    "name": "Rust",
+    "ring": "Assess",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://www.rust-lang.org/\">Rust</a></strong> is gaining attention in our campus technology discussions, particularly for performance-critical systems and security-sensitive applications. While Rust's memory safety guarantees are appealing for systems handling sensitive student data, the learning curve is steep compared to languages our teams already know. We're assessing Rust for specific use cases like high-performance data processing pipelines and security-critical microservices, but it's not yet ready for widespread adoption in our campus development workflows.</p>"
+  },
+  {
+    "name": "GitHub",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://github.com/\">GitHub</a></strong> is our standard platform for version control and collaborative development across campus IT projects. GitHub's education program provides free access to premium features for educational institutions, making it an excellent choice for both IT departments and academic programs. The platform's integration with CI/CD tools, issue tracking, and code review workflows streamlines our development processes. GitHub Classroom has also proven valuable for managing student assignments and teaching version control best practices.</p>"
+  },
+  {
+    "name": "GitLab",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://about.gitlab.com/\">GitLab</a></strong> offers a comprehensive DevOps platform that includes built-in CI/CD, container registry, and project management features. Our campus is trialing GitLab as an alternative to GitHub, particularly for projects requiring more integrated DevOps tooling. GitLab's self-hosted option appeals to institutions with strict data residency requirements. The platform's all-in-one approach can reduce the need for multiple tools, but teams should evaluate whether the learning curve and migration effort justify switching from existing GitHub workflows.</p>"
+  },
+  {
+    "name": "Docker",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.docker.com/\">Docker</a></strong> has become essential for containerizing campus applications and ensuring consistent deployments across development, testing, and production environments. Our teams use Docker to package student information systems, learning management integrations, and administrative tools. Containerization simplifies dependency management and enables easier scaling of campus services. Docker Compose is particularly useful for local development environments, allowing developers to quickly spin up complex application stacks with databases, caching layers, and microservices.</p>"
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://kubernetes.io/\">Kubernetes</a></strong> is being trialed by our campus for orchestrating containerized applications at scale. While Kubernetes offers powerful capabilities for managing complex microservices architectures, it introduces significant operational complexity. Our teams are evaluating Kubernetes for scenarios where high availability and auto-scaling are critical, such as student portal systems during peak enrollment periods. However, smaller institutions may find simpler container orchestration solutions more appropriate for their needs.</p>"
+  },
+  {
+    "name": "Jenkins",
+    "ring": "Hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.jenkins.io/\">Jenkins</a></strong> has been a workhorse for CI/CD pipelines in our campus, but we're seeing teams migrate to more modern alternatives. While Jenkins is highly configurable and has extensive plugin support, its interface feels dated, and maintenance overhead is significant. Newer CI/CD platforms like GitHub Actions and GitLab CI offer better developer experience and tighter integration with version control systems. We recommend teams starting new projects to evaluate modern alternatives, though existing Jenkins installations can continue to serve their purpose.</p>"
+  },
+  {
+    "name": "GitHub Actions",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://github.com/features/actions\">GitHub Actions</a></strong> has become our preferred CI/CD solution for campus projects hosted on GitHub. The tight integration with GitHub repositories, straightforward YAML-based configuration, and generous free tier for educational institutions make it an excellent choice. Our teams use GitHub Actions for automated testing, deployment to staging environments, and generating documentation. The marketplace of pre-built actions simplifies common tasks like running tests, building Docker images, and deploying to cloud platforms.</p>"
+  },
+  {
+    "name": "PostgreSQL",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.postgresql.org/\">PostgreSQL</a></strong> is our standard relational database for campus applications, chosen for its reliability, feature richness, and open-source nature. PostgreSQL's advanced features like JSON support, full-text search, and robust transaction handling make it suitable for diverse campus use cases, from student information systems to research data management. The database's strong ACID compliance and data integrity features are crucial for applications handling sensitive student and financial data. PostgreSQL's active community and extensive documentation support our development teams effectively.</p>"
+  },
+  {
+    "name": "MongoDB",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.mongodb.com/\">MongoDB</a></strong> is being trialed for campus applications with flexible schema requirements, such as content management systems and learning analytics platforms. MongoDB's document model suits scenarios where data structures evolve frequently, which is common in educational technology projects. However, our teams are cautious about using MongoDB for applications requiring complex transactions or strict data consistency. We recommend MongoDB for specific use cases like storing course content, student portfolios, and event data where schema flexibility provides clear benefits.</p>"
+  },
+  {
+    "name": "Redis",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://redis.io/\">Redis</a></strong> serves as our standard caching and session storage solution for campus web applications. Redis significantly improves performance for high-traffic systems like course registration portals and student information systems. Our teams use Redis for caching frequently accessed data, managing user sessions, and implementing rate limiting. Redis's pub/sub capabilities enable real-time features like live notifications and chat systems. The in-memory data store's speed and simplicity make it an essential component of our campus application architecture.</p>"
+  },
+  {
+    "name": "AWS",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://aws.amazon.com/\">Amazon Web Services (AWS)</a></strong> is our primary cloud platform for hosting campus applications and services. AWS's education discount program and comprehensive service offerings make it an excellent choice for institutions of all sizes. Our teams leverage AWS services like EC2 for compute, RDS for managed databases, S3 for storage, and CloudFront for content delivery. AWS's compliance certifications (including FERPA compliance) and security features are essential for handling educational data. The platform's scalability supports peak loads during enrollment periods and semester starts.</p>"
+  },
+  {
+    "name": "Azure for Education",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://azure.microsoft.com/en-us/free/students/\">Microsoft Azure for Education</a></strong> offers compelling benefits for institutions already invested in the Microsoft ecosystem. Azure's integration with Office 365 and Active Directory simplifies identity management for campus applications. Our teams are trialing Azure for projects that require tight integration with Microsoft services like Teams and SharePoint. Azure's education grants provide substantial credits, making it cost-effective for academic projects. However, teams should evaluate whether Azure's services meet their specific needs compared to AWS alternatives.</p>"
+  },
+  {
+    "name": "Google Cloud Platform",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://cloud.google.com/edu\">Google Cloud Platform (GCP)</a></strong> offers education credits and specialized services for academic institutions. GCP's strengths in data analytics and machine learning make it attractive for research projects and learning analytics initiatives. Our campus is assessing GCP for specific use cases like processing large datasets for institutional research and building predictive models for student success. However, GCP's smaller market share compared to AWS means fewer campus IT teams have experience with the platform, which can impact adoption.</p>"
+  },
+  {
+    "name": "Microservices architecture",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Microservices architecture</strong> is being trialed for decomposing large, monolithic campus systems into smaller, independently deployable services. This approach can improve development velocity and allow different teams to work on separate services. However, our campus teams have learned that microservices introduce significant operational complexity, including service discovery, distributed tracing, and data consistency challenges. We recommend microservices only for institutions with mature DevOps practices and clear boundaries between system domains. For smaller campuses, a well-structured monolith may be more appropriate.</p>"
+  },
+  {
+    "name": "API-first design",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>API-first design</strong> has become a standard practice for our campus development teams. By designing APIs before building user interfaces, teams can ensure consistent data access patterns across web, mobile, and third-party integrations. This approach is particularly valuable for student information systems, where data needs to be accessible from multiple channels including student portals, mobile apps, and administrative tools. API-first design enables better separation of concerns and facilitates integration with learning management systems and other campus platforms.</p>"
+  },
+  {
+    "name": "Test-driven development",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Test-driven development (TDD)</strong> is essential for maintaining code quality in campus applications, where bugs can directly impact student services and administrative processes. Our teams practice TDD to catch issues early and ensure that critical functionality like course registration, grade calculations, and financial aid processing works correctly. TDD's emphasis on writing tests before implementation leads to more maintainable code and better documentation of system behavior. The discipline of TDD is particularly valuable when working with legacy campus systems that lack comprehensive test coverage.</p>"
+  },
+  {
+    "name": "Infrastructure as Code",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Infrastructure as Code (IaC)</strong> using tools like Terraform and CloudFormation has transformed how our campus manages cloud resources. IaC enables version-controlled infrastructure, repeatable deployments, and easier disaster recovery. Our teams use IaC to provision databases, compute instances, and networking resources for campus applications. This approach reduces manual configuration errors and enables faster recovery from infrastructure failures. IaC is particularly valuable for multi-environment setups where development, staging, and production environments need to be consistent.</p>"
+  },
+  {
+    "name": "Continuous Integration/Continuous Deployment",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Continuous Integration/Continuous Deployment (CI/CD)</strong> pipelines are standard practice for our campus development teams. Automated testing and deployment reduce the risk of introducing bugs into production systems that serve students and faculty. CI/CD enables faster delivery of features and fixes, which is crucial for responding to changing academic calendar requirements and student needs. Our teams use CI/CD to automatically run tests, perform security scans, and deploy to staging environments before manual promotion to production.</p>"
+  },
+  {
+    "name": "Event-driven architecture",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "<p><strong>Event-driven architecture</strong> is being assessed for integrating disparate campus systems that need to react to changes in real-time. For example, when a student enrolls in a course, multiple systems need to be notified: the LMS, library system, email notifications, and financial aid office. Event-driven patterns using message queues or event streams can decouple these systems and improve resilience. However, implementing event-driven architecture requires careful design to handle event ordering, idempotency, and error handling. We're assessing this pattern for specific integration scenarios where loose coupling provides clear benefits.</p>"
+  },
+  {
+    "name": "GraphQL",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://graphql.org/\">GraphQL</a></strong> is being trialed as an alternative to REST APIs for campus applications with complex data requirements. GraphQL's ability to let clients request exactly the data they need can reduce over-fetching and improve performance for mobile applications. Our teams are evaluating GraphQL for student portal APIs where different views need different combinations of student data, course information, and academic records. However, GraphQL introduces complexity in caching, rate limiting, and API versioning compared to REST. We recommend GraphQL for specific use cases where its benefits outweigh the added complexity.</p>"
+  },
+  {
+    "name": "Single Sign-On (SSO)",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Single Sign-On (SSO)</strong> using protocols like SAML and OAuth is essential for providing seamless access to campus applications. SSO improves user experience by eliminating the need for students and faculty to remember multiple passwords while enhancing security through centralized authentication. Our campus implements SSO to integrate learning management systems, library resources, student portals, and administrative tools. SSO also enables better access control and audit trails, which are crucial for compliance with FERPA and other educational data privacy regulations.</p>"
+  },
+  {
+    "name": "Data warehousing for analytics",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Data warehousing for analytics</strong> enables our campus to gain insights from operational data across student information systems, learning management platforms, and administrative tools. By consolidating data from multiple sources into a data warehouse, our analytics teams can perform institutional research, track student success metrics, and generate reports for accreditation. Data warehousing supports use cases like identifying at-risk students, analyzing course completion rates, and optimizing resource allocation. We use ETL processes to regularly sync operational systems with the data warehouse while maintaining data privacy and security.</p>"
+  },
+  {
+    "name": "Mobile-first design",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Mobile-first design</strong> is essential for campus applications, as students increasingly access services from smartphones and tablets. Our teams prioritize mobile experiences for course registration, campus maps, event calendars, and student portals. Mobile-first design ensures that critical functionality is accessible on small screens and touch interfaces. Responsive web design and progressive web app (PWA) techniques enable us to provide app-like experiences without requiring native app development for every platform. Mobile-first thinking has become standard practice for all new campus application projects.</p>"
+  },
+  {
+    "name": "Accessibility-first development",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "<p><strong>Accessibility-first development</strong> ensures that campus applications are usable by all students, including those with disabilities. Our teams follow WCAG guidelines and use automated accessibility testing tools to catch issues early in development. Accessibility is not just a compliance requirement�it improves usability for all users. Features like keyboard navigation, screen reader support, and proper color contrast benefit everyone. We've made accessibility-first development a standard practice, recognizing that inclusive design is essential for educational technology that serves diverse student populations.</p>"
+  },
+  {
+    "name": "Container orchestration",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Container orchestration</strong> using platforms like Kubernetes is being trialed for managing complex campus application deployments. Container orchestration enables automatic scaling, self-healing, and rolling updates, which are valuable for high-availability systems. However, orchestration platforms introduce significant operational complexity and require specialized expertise. Our teams are evaluating whether the benefits justify the learning curve and maintenance overhead. Smaller campuses may find simpler deployment strategies more appropriate, while larger institutions with dedicated DevOps teams may benefit from orchestration capabilities.</p>"
+  },
+  {
+    "name": "Serverless architecture",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "<p><strong>Serverless architecture</strong> using platforms like AWS Lambda and Azure Functions is being assessed for specific campus use cases. Serverless can reduce operational overhead by eliminating server management and enabling automatic scaling. Our teams are evaluating serverless for event-driven integrations, scheduled tasks like data synchronization, and API endpoints with variable traffic patterns. However, serverless introduces challenges around cold starts, debugging, and vendor lock-in. We're assessing serverless for specific scenarios where its benefits outweigh the trade-offs, rather than as a wholesale replacement for traditional server-based architectures.</p>"
+  },
+  {
+    "name": "Observability and monitoring",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Observability and monitoring</strong> using tools like Prometheus, Grafana, and application performance monitoring (APM) solutions are essential for maintaining reliable campus services. Comprehensive monitoring enables our teams to detect issues before they impact students and faculty, understand system performance during peak usage periods like course registration, and troubleshoot problems quickly. We implement monitoring at multiple levels: infrastructure metrics, application performance, and business metrics like enrollment completion rates. Effective observability is crucial for maintaining service level agreements and ensuring positive user experiences.</p>"
+  },
+  {
+    "name": "Security-first development",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "<p><strong>Security-first development</strong> practices are non-negotiable for campus applications handling sensitive student data. Our teams implement security measures throughout the development lifecycle, including threat modeling, secure coding practices, regular security audits, and penetration testing. We follow OWASP guidelines and implement defense-in-depth strategies including input validation, output encoding, and least-privilege access controls. Security-first development is particularly critical for systems handling financial aid, grades, and personally identifiable information, where breaches can have severe consequences for students and the institution.</p>"
+  }
+]
