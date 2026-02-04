@@ -1,18 +1,5 @@
 [
-  {
-    "name": "Moodle",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
-    "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://moodle.org/\">Moodle</a></strong> is an open-source learning management system (LMS) that has become the de facto standard for educational institutions worldwide. Our campus teams have successfully deployed Moodle for course management, student assessment, and collaborative learning. The platform's extensive plugin ecosystem and strong community support make it an excellent choice for institutions looking to provide comprehensive online learning experiences. With its robust features for assignments, quizzes, forums, and gradebook management, Moodle continues to be our recommended platform for campus-wide learning management.</p>"
-  },
-  {
-    "name": "Canvas LMS",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
-    "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.instructure.com/canvas\">Canvas LMS</a></strong> is a modern, cloud-based learning management system that offers an intuitive user interface and excellent mobile support. Our campus has found Canvas particularly effective for institutions prioritizing user experience and modern design. The platform's API-first architecture enables seamless integration with other campus systems, and its comprehensive analytics tools help educators track student engagement and performance. Canvas's reliability and scalability make it suitable for large institutions with diverse learning needs.</p>"
-  },
+  
   {
     "name": "Microsoft Teams for Education",
     "ring": "Adopt",
@@ -75,6 +62,13 @@
     "quadrant": "Languages & Frameworks",
     "isNew": "TRUE",
     "description": "<p><strong><a href=\"https://www.rust-lang.org/\">Rust</a></strong> is gaining attention in our campus technology discussions, particularly for performance-critical systems and security-sensitive applications. While Rust's memory safety guarantees are appealing for systems handling sensitive student data, the learning curve is steep compared to languages our teams already know. We're assessing Rust for specific use cases like high-performance data processing pipelines and security-critical microservices, but it's not yet ready for widespread adoption in our campus development workflows.</p>"
+  },
+  {
+    "name": "Delphi",
+    "ring": "Hold",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "FALSE",
+    "description": "<p><strong><a href=\"https://www.embarcadero.com/products/delphi\">Delphi</a></strong> is a legacy programming language and IDE that Campus CodeWorks still uses in some existing projects, particularly desktop applications and older client systems. While Delphi was once a popular choice for Windows desktop development, it has become outdated compared to modern web and cross-platform technologies. The ecosystem is shrinking, developer talent is scarce, and integration with modern cloud services and APIs is challenging. We do not recommend Delphi for new projects and recommend migrating existing Delphi applications to modern frameworks like .NET, React, or Node.js when feasible.</p>"
   },
   {
     "name": "GitHub",
