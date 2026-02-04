@@ -140,6 +140,20 @@
     "description": "<p><strong><a href=\"https://redis.io/\">Redis</a></strong> serves as our standard caching and session storage solution for campus web applications. Redis significantly improves performance for high-traffic systems like course registration portals and student information systems. Our teams use Redis for caching frequently accessed data, managing user sessions, and implementing rate limiting. Redis's pub/sub capabilities enable real-time features like live notifications and chat systems. The in-memory data store's speed and simplicity make it an essential component of our campus application architecture.</p>"
   },
   {
+    "name": "RabbitMQ",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://www.rabbitmq.com/\">RabbitMQ</a></strong> is Campus CodeWorks' standard message broker for event-driven and microservices-based systems, including the KAV vizsgaszervező rendszer. RabbitMQ enables reliable, asynchronous communication between services through queues and topics, improving decoupling and resilience. Our teams use RabbitMQ for domain events, integration events, and background processing workloads. RabbitMQ's mature ecosystem and proven stability make it a core component of our backend platform.</p>"
+  },
+  {
+    "name": "MinIO",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://min.io/\">MinIO</a></strong> is being trialed by Campus CodeWorks as a self-hosted, S3-compatible object storage platform, elsősorban olyan rendszerekben, mint a KAV vizsgaszervező megoldás. MinIO biztosítja a dokumentumok, tanúsítványok és archivált fájlok tartós, nagy rendelkezésre állású tárolását Kubernetes környezetben. A megoldás jól illeszkedik a konténeres és on-premise infrastruktúrához, de hosszú távon össze kell vetni felhős alternatívákkal (pl. S3) üzemeltetési és költség szempontból.</p>"
+  },
+  {
     "name": "AWS",
     "ring": "Adopt",
     "quadrant": "Platforms",
@@ -256,7 +270,7 @@
     "ring": "Adopt",
     "quadrant": "Techniques",
     "isNew": "FALSE",
-    "description": "<p><strong>Observability and monitoring</strong> using tools like Prometheus, Grafana, and application performance monitoring (APM) solutions are essential for maintaining reliable campus services. Comprehensive monitoring enables our teams to detect issues before they impact students and faculty, understand system performance during peak usage periods like course registration, and troubleshoot problems quickly. We implement monitoring at multiple levels: infrastructure metrics, application performance, and business metrics like enrollment completion rates. Effective observability is crucial for maintaining service level agreements and ensuring positive user experiences.</p>"
+    "description": "<p><strong>Observability and monitoring</strong> using tools like Prometheus, Grafana, and application performance monitoring (APM) solutions are essential for maintaining reliable Campus CodeWorks services. In összetettebb rendszerekben, mint a KAV vizsgaszervező platform, kiegészítjük ezt EFK stackkel (Elasticsearch, Fluentd/Fluent Bit, Kibana) a központosított logoláshoz és OpenTelemetry alapú tracinggel (Jaeger/Tempo). Comprehensive monitoring enables our teams to detect issues before they impact users, understand system performance during peak usage periods, and troubleshoot problems quickly. We implement monitoring at multiple levels: infrastructure metrics, application performance, and business metrics. Effective observability is crucial for maintaining service level agreements and ensuring positive user experiences.</p>"
   },
   {
     "name": "Security-first development",
