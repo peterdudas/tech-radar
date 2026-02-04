@@ -22,11 +22,11 @@
     "description": "<p><strong><a href=\"https://www.blackboard.com/teaching-learning/learning-management/blackboard-learn\">Blackboard Learn</a></strong> was once a dominant player in the LMS market, but our campus teams have observed declining adoption and user satisfaction compared to modern alternatives. While Blackboard offers comprehensive features and enterprise support, its user interface feels dated, and the platform can be complex to configure and maintain. We recommend institutions currently using Blackboard to assess migration paths to more modern solutions like Canvas or Moodle, unless there are specific integration requirements that necessitate staying with Blackboard.</p>"
   },
   {
-    "name": "React",
+    "name": "Angular",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://react.dev/\">React</a></strong> has become our standard choice for building modern campus web applications and student portals. Our development teams appreciate React's component-based architecture, which enables reusable UI elements across multiple campus applications. The extensive ecosystem of libraries and strong community support make React ideal for building responsive, interactive interfaces for course catalogs, student information systems, and campus event platforms. React's learning curve is manageable for new developers, making it suitable for campus IT teams.</p>"
+    "description": "<p><strong><a href=\"https://angular.io/\">Angular</a></strong> is Campus CodeWorks' standard choice for building modern web applications and client portals. Our development teams use Angular in key projects including Neptun, KVAR, and e-Titán systems. Angular's comprehensive framework with built-in features for routing, forms, HTTP client, and dependency injection accelerates development of complex enterprise applications. The framework's opinionated structure and TypeScript-first approach provide consistency across teams and projects. Angular's strong tooling, testing capabilities, and enterprise-ready architecture make it ideal for large-scale applications requiring maintainability and long-term support.</p>"
   },
   {
     "name": "TypeScript",
