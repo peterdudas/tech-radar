@@ -36,25 +36,18 @@
     "description": "<p><strong><a href=\"https://www.typescriptlang.org/\">TypeScript</a></strong> has proven invaluable for our campus development teams working on large-scale applications. The type safety it provides reduces bugs and improves code maintainability, which is crucial for student information systems and financial aid platforms where data accuracy is paramount. TypeScript's excellent IDE support and gradual adoption path allow teams to migrate existing JavaScript codebases incrementally. We recommend TypeScript for all new campus web application projects.</p>"
   },
   {
-    "name": "Python",
+    "name": "C#",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.python.org/\">Python</a></strong> is our preferred language for data analysis, automation, and backend services in campus environments. Python's extensive libraries for data science (pandas, numpy) make it ideal for institutional research and analytics. Our teams use Python for automating administrative tasks, processing student data, and building APIs. The language's readability and extensive documentation make it accessible to both IT staff and academic researchers, fostering collaboration across campus departments.</p>"
+    "description": "<p><strong><a href=\"https://dotnet.microsoft.com/en-us/languages/csharp\">C#</a></strong> is Campus CodeWorks' primary language for backend development across all projects. C# with .NET provides a robust, type-safe, and performant platform for building enterprise applications, microservices, and APIs. Our teams leverage C#'s strong typing, excellent tooling, and comprehensive standard library to develop reliable backend services. The language's integration with the .NET ecosystem, including ASP.NET Core, Entity Framework, and modern async/await patterns, makes it ideal for building scalable backend systems. C# is used throughout Campus CodeWorks' backend infrastructure, ensuring consistency and maintainability across projects.</p>"
   },
   {
-    "name": "Node.js",
+    "name": "Kotlin",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://nodejs.org/\">Node.js</a></strong> serves as our standard runtime for building scalable backend services and APIs for campus applications. The ability to use JavaScript on both frontend and backend reduces context switching for development teams. Node.js excels at handling I/O-intensive operations common in campus systems, such as processing enrollment data, managing library systems, and handling course registration. Our teams leverage Node.js with Express.js for RESTful APIs and with Socket.io for real-time features like chat systems and live notifications.</p>"
-  },
-  {
-    "name": "Django",
-    "ring": "Trial",
-    "quadrant": "Languages & Frameworks",
-    "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.djangoproject.com/\">Django</a></strong> is a high-level Python web framework that our campus teams are evaluating for administrative applications. Django's \"batteries-included\" philosophy provides built-in features for authentication, admin interfaces, and ORM that can accelerate development of internal tools. The framework's security features and built-in admin panel make it attractive for building student information system modules and faculty management tools. We're trialing Django for projects where rapid development and administrative interfaces are priorities.</p>"
+    "description": "<p><strong><a href=\"https://kotlinlang.org/\">Kotlin</a></strong> is Campus CodeWorks' standard language for mobile application development, particularly for Android platforms. Kotlin's modern syntax, null safety, and interoperability with Java make it an excellent choice for mobile development. Our mobile development teams use Kotlin to build native Android applications with improved code readability and reduced boilerplate compared to Java. Kotlin's coroutines support enables efficient asynchronous programming, which is essential for mobile apps handling network requests and background tasks. The language's strong tooling support and growing ecosystem make it our preferred choice for mobile development projects.</p>"
   },
   {
     "name": "Rust",
@@ -68,7 +61,7 @@
     "ring": "Hold",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.embarcadero.com/products/delphi\">Delphi</a></strong> is a legacy programming language and IDE that Campus CodeWorks still uses in some existing projects, particularly desktop applications and older client systems. While Delphi was once a popular choice for Windows desktop development, it has become outdated compared to modern web and cross-platform technologies. The ecosystem is shrinking, developer talent is scarce, and integration with modern cloud services and APIs is challenging. We do not recommend Delphi for new projects and recommend migrating existing Delphi applications to modern frameworks like .NET, React, or Node.js when feasible.</p>"
+    "description": "<p><strong><a href=\"https://www.embarcadero.com/products/delphi\">Delphi</a></strong> is a legacy programming language and IDE that Campus CodeWorks still uses in some existing projects, particularly desktop applications and older client systems. While Delphi was once a popular choice for Windows desktop development, it has become outdated compared to modern web and cross-platform technologies. The ecosystem is shrinking, developer talent is scarce, and integration with modern cloud services and APIs is challenging. We do not recommend Delphi for new projects and recommend migrating existing Delphi applications to modern frameworks like .NET/C# or Angular when feasible.</p>"
   },
   {
     "name": "GitHub",
