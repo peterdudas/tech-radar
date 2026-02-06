@@ -237,5 +237,61 @@
     "quadrant": "Techniques",
     "isNew": "FALSE",
     "description": "<p><strong>Megfigyelhetőség és monitoring</strong> olyan eszközökkel, mint a Prometheus, Grafana és alkalmazás teljesítmény monitoring (APM) megoldások, elengedhetetlen a megbízható Campus CodeWorks szolgáltatások fenntartásához. Összetettebb rendszerekben, mint a KAV vizsgaszervező platform, ezt kiegészítjük EFK stackkel (Elasticsearch, Fluentd/Fluent Bit, Kibana) a központosított logoláshoz és OpenTelemetry alapú tracinggel (Jaeger/Tempo). Az átfogó monitoring lehetővé teszi csapataink számára, hogy problémákat észleljenek, mielőtt azok hatással lennének a felhasználókra, megértsék a rendszer teljesítményét csúcsidőszakokban és gyorsan elhárítsák a problémákat. Többszintű monitoringot implementálunk: infrastruktúra metrikák, alkalmazás teljesítmény és üzleti metrikák. A hatékony megfigyelhetőség kritikus a szolgáltatási szintű megállapodások fenntartásához és pozitív felhasználói élmények biztosításához.</p>"
+  },
+  {
+    "name": "MSSQL",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://www.microsoft.com/sql-server\">Microsoft SQL Server (MSSQL)</a></strong> a Campus CodeWorks által használatban lévő relációs adatbázis-kezelő rendszer. Csapataink az MSSQL-t használják vállalati alkalmazásokhoz, ahol a Windows ökoszisztéma és a .NET integráció elsődleges. Az MSSQL erős tranzakciókezelése, biztonsági funkciói és az Azure SQL integráció lehetősége megbízható választást nyújt kritikus üzleti adatok tárolásához.</p>"
+  },
+  {
+    "name": "Oracle",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://www.oracle.com/database/\">Oracle Database</a></strong> a Campus CodeWorks által használatban lévő relációs adatbázis rendszer. Az Oracle-t olyan projektekben és ügyfelekkel használjuk, ahol már meglévő Oracle infrastruktúra vagy licenszelési megállapodások vannak. Az Oracle erős adatintegritási és skálázhatósági képességei megfelelnek nagyvállalati igényeknek.</p>"
+  },
+  {
+    "name": "ELK Stack",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://www.elastic.co/elasticstack\">ELK Stack</a></strong> (Elasticsearch, Logstash, Kibana) a Campus CodeWorks által használatban lévő központosított loggyűjtési, keresési és vizualizációs platform. Csapataink az ELK stacket használják alkalmazás- és infrastruktúra logok összegyűjtéséhez, kereséséhez és dashboardok készítéséhez. A stack kiegészíti a megfigyelhetőségi stratégiát a részletes log elemzés és hibakeresés támogatásával.</p>"
+  },
+  {
+    "name": "ChatGPT",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://chat.openai.com/\">ChatGPT</a></strong> a Campus CodeWorks által használatban lévő AI-alapú asszisztens dokumentációhoz, kód példákhoz, és általános fejlesztési kérdésekhez. Csapataink a ChatGPT-t használják gyors információkeresésre, sablonok és dokumentumok piszkozatolására, valamint ötletgyűjtésre. A tool segíti a produktivitást, miközben a szervezeti adatkezelési irányelvek betartása mellett használjuk.</p>"
+  },
+  {
+    "name": "Cursor AI",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://cursor.com/\">Cursor AI</a></strong> jelenleg nem használatban a Campus CodeWorks-nál, de bevezetését érdemes megfontolni. A Cursor AI-alapú kódszerkesztő, amely kontextusérzékeny javaslatokat és kódgenerálást nyújt a fejlesztők számára. A bevezetés előtt érdemes kipróbálni a biztonsági és adatkezelési szabályzatokkal való összeegyeztethetőségét.</p>"
+  },
+  {
+    "name": "Claude Code",
+    "ring": "Assess",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://claude.ai/\">Claude (Claude Code)</a></strong> jelenleg nem használatban a Campus CodeWorks-nál; megvizsgálásra javasolt. Az Anthropic által készített AI asszisztens kódértelmezést, dokumentációt és fejlesztési támogatást nyújt. Értékelni kell a szervezeti igényekhez való illeszkedést, licenszelést és a meglévő AI eszközök (pl. ChatGPT) melletti használatot.</p>"
+  },
+  {
+    "name": "Proxmox VE",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://www.proxmox.com/\">Proxmox VE</a></strong> jelenleg nem használatban; a virtualizáció bővítése érdekében megvizsgálásra javasolt. A Proxmox nyílt forráskódú, KVM- és LXC-alapú virtualizációs platform, amely on-premise szerverek és VMs kezelését teszi lehetővé. Értékelni kell a meglévő infrastruktúrával való összeegyeztethetőséget és üzemeltetési költségeket.</p>"
+  },
+  {
+    "name": "VMware ESXi",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "<p><strong><a href=\"https://www.vmware.com/products/esxi-and-esx.html\">VMware ESXi</a></strong> jelenleg nem használatban; a virtualizáció bevezetése vagy bővítése érdekében megvizsgálásra javasolt. Az ESXi iparági standard hypervisor nagy rendelkezésre állású, skálázható virtuális környezetekhez. Értékelni kell a licenszelési költségeket a Proxmox és egyéb alternatívákhoz képest, valamint a szervezet virtualizációs stratégiájához való illeszkedést.</p>"
   }
 ]
