@@ -5,147 +5,147 @@
     "ring": "Adopt",
     "quadrant": "Platforms",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://business.udemy.com/udemy-for-business/\">Udemy for Education</a></strong> a Campus CodeWorks által használt online tanulási és szakmai fejlesztési platform. Az Udemy hozzáférést biztosít egy hatalmas kurzus könyvtárhoz, amely technikai készségeket, programozási nyelveket és szakmai fejlesztési témákat fed le. Csapataink az Udemy-t használják alkalmazottképzéshez, készségfejlesztéshez és a technológiai trendek követéséhez. A platform strukturált tanulási útvonalai, videó-alapú tartalma és haladás követési funkciói hatékonyvá teszik mind az egyéni tanulást, mind a csapat szintű készségfejlesztési kezdeményezéseket. Az Udemy integrációs lehetőségei és jelentéskészítő funkciói segítik a Campus CodeWorks-t a tanulási haladás követésében és a folyamatos szakmai fejlesztés biztosításában a szervezetben.</p>"
+    "description": "<p><strong><a href=\"https://business.udemy.com/udemy-for-business/\">Udemy for Education</a></strong> is the online learning and professional development platform used by Campus CodeWorks. Udemy provides access to a large course library covering technical skills, programming languages and professional development topics. Our teams use Udemy for employee training, skill development and keeping up with technology trends. The platform's structured learning paths, video-based content and progress-tracking features make both individual learning and team-wide upskilling effective. Udemy's integration options and reporting support Campus CodeWorks in tracking learning progress and ensuring continuous professional development across the organisation.</p>"
   },
   {
     "name": "Angular",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://angular.io/\">Angular</a></strong> a Campus CodeWorks standard választása modern webalkalmazások és ügyfélportálok építéséhez. Fejlesztői csapataink az Angular-t használják kulcsfontosságú projektekben, beleértve a Neptun, KVAR és e-Titán rendszereket. Az Angular átfogó keretrendszere beépített routing, form, HTTP kliens és dependency injection funkciókkal felgyorsítja az összetett vállalati alkalmazások fejlesztését. A keretrendszer strukturált megközelítése és TypeScript-first filozófiája konzisztenciát biztosít csapatok és projektek között. Az Angular erős tooling támogatása, tesztelési képességei és vállalati szintű architektúrája ideálissá teszi nagy léptékű alkalmazásokhoz, amelyek karbantarthatóságot és hosszú távú támogatást igényelnek.</p>"
+    "description": "<p><strong><a href=\"https://angular.io/\">Angular</a></strong> is Campus CodeWorks' standard choice for building modern web applications and client portals. Our development teams use Angular in key projects, including the Neptun, KVAR and e-Titán systems. Angular's comprehensive framework with built-in routing, forms, HTTP client and dependency injection accelerates development of complex enterprise applications. Its structured approach and TypeScript-first philosophy ensure consistency across teams and projects. Angular's strong tooling, testing capabilities and enterprise-grade architecture make it ideal for large-scale applications requiring maintainability and long-term support.</p>"
   },
   {
     "name": "Telerik Kendo UI",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.telerik.com/kendo-ui\">Telerik Kendo UI</a></strong> a Campus CodeWorks által használatban lévő UI komponens könyvtár. A Kendo UI átfogó komponens készletet nyújt modern webalkalmazások fejlesztéséhez, beleértve adatrácsokat, form elemeket, naptárakat, diagramokat és egyéb interaktív UI komponenseket. Csapataink a Kendo UI-t használják konzisztens, professzionális felhasználói felületek építéséhez, amelyek gyors fejlesztést és könnyű karbantarthatóságot tesznek lehetővé. A könyvtár erős Angular integrációja és TypeScript támogatása jól illeszkedik a Campus CodeWorks technológiai stack-jéhez. A Kendo UI kiterjedt dokumentációja és támogatása segíti a fejlesztőket hatékony UI komponensek implementálásában.</p>"
+    "description": "<p><strong><a href=\"https://www.telerik.com/kendo-ui\">Telerik Kendo UI</a></strong> is the UI component library in use at Campus CodeWorks. Kendo UI provides a comprehensive set of components for building modern web applications, including data grids, form controls, calendars, charts and other interactive UI elements. Our teams use Kendo UI to build consistent, professional user interfaces that enable rapid development and easy maintainability. The library's strong Angular integration and TypeScript support align well with the Campus CodeWorks technology stack. Kendo UI's extensive documentation and support help developers implement UI components effectively.</p>"
   },
   {
     "name": "TypeScript",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.typescriptlang.org/\">TypeScript</a></strong> kiemelkedően értékes a Campus CodeWorks fejlesztői csapatai számára nagy léptékű alkalmazásokon dolgozva. A típusbiztonság, amit biztosít, csökkenti a hibákat és javítja a kód karbantarthatóságát, ami kritikus fontosságú olyan rendszereknél, ahol az adatok pontossága döntő. A TypeScript kiváló IDE támogatása és fokozatos bevezetési lehetősége lehetővé teszi a csapatok számára, hogy lépésről lépésre migrálják meglévő JavaScript kódbázisaikat. A TypeScript-et ajánljuk minden új Campus CodeWorks webalkalmazás projekthez.</p>"
+    "description": "<p><strong><a href=\"https://www.typescriptlang.org/\">TypeScript</a></strong> is highly valuable for Campus CodeWorks development teams working on large-scale applications. The type safety it provides reduces bugs and improves code maintainability, which is critical for systems where data accuracy is paramount. TypeScript's excellent IDE support and incremental adoption path allow teams to migrate existing JavaScript codebases step by step. We recommend TypeScript for every new Campus CodeWorks web application project.</p>"
   },
   {
     "name": "C#",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://dotnet.microsoft.com/en-us/languages/csharp\">C#</a></strong> a Campus CodeWorks elsődleges backend fejlesztési nyelve minden projektben. A C# a .NET platformmal együtt robusztus, típusbiztos és teljesítményes platformot biztosít vállalati alkalmazások, microservices és API-k fejlesztéséhez. Csapataink kihasználják a C# erős típusrendszerét, kiváló eszközeit és átfogó standard könyvtárát megbízható backend szolgáltatások fejlesztéséhez. A nyelv integrációja a .NET ökoszisztémával, beleértve az ASP.NET Core-t, Entity Framework-öt és modern async/await mintákat, ideálissá teszi skálázható backend rendszerek építéséhez. A C#-ot a Campus CodeWorks teljes backend infrastruktúrájában használjuk, biztosítva a konzisztenciát és karbantarthatóságot projektek között.</p>"
+    "description": "<p><strong><a href=\"https://dotnet.microsoft.com/en-us/languages/csharp\">C#</a></strong> is Campus CodeWorks' primary backend development language for all projects. C# together with the .NET platform provides a robust, type-safe and performant foundation for enterprise applications, microservices and APIs. Our teams leverage C#'s strong type system, excellent tooling and comprehensive standard library to build reliable backend services. The language's integration with the .NET ecosystem—including ASP.NET Core, Entity Framework and modern async/await patterns—makes it ideal for building scalable backend systems. We use C# across the full Campus CodeWorks backend infrastructure, ensuring consistency and maintainability across projects.</p>"
   },
   {
     "name": ".NET 10",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://dotnet.microsoft.com/\">.NET 10</a></strong> a Campus CodeWorks által termékekben használt .NET platform verziója. A .NET 10 továbbfejlesztett teljesítményt, jobb memóriakezelést és új funkciókat nyújt, amelyek javítják az alkalmazások hatékonyságát és skálázhatóságát. Csapataink a .NET 10-et használják backend szolgáltatások, API-k és microservices fejlesztéséhez. A platform modern fejlesztési mintákat, erős tooling támogatást és átfogó könyvtárakat biztosít, amelyek segítik a hatékony és karbantartható kód írását. A .NET 10 hosszú távú támogatása és stabilitása kritikus fontosságú a Campus CodeWorks termékei számára.</p>"
+    "description": "<p><strong><a href=\"https://dotnet.microsoft.com/\">.NET 10</a></strong> is the .NET platform version used by Campus CodeWorks in its products. .NET 10 delivers improved performance, better memory management and new features that enhance application efficiency and scalability. Our teams use .NET 10 for backend services, APIs and microservices. The platform provides modern development patterns, strong tooling support and comprehensive libraries that support writing efficient and maintainable code. .NET 10's long-term support and stability are critical for Campus CodeWorks products.</p>"
   },
   {
     "name": "Kotlin",
     "ring": "Adopt",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://kotlinlang.org/\">Kotlin</a></strong> a Campus CodeWorks standard nyelve mobilalkalmazás fejlesztéshez, különösen Android platformokhoz. A Kotlin modern szintaxisa, null safety támogatása és Java-val való interoperabilitása kiváló választást jelent mobil fejlesztéshez. Mobil fejlesztői csapataink a Kotlin-t használják natív Android alkalmazások építéséhez, javított kód olvashatósággal és kevesebb boilerplate kóddal a Java-hoz képest. A Kotlin coroutines támogatása lehetővé teszi a hatékony aszinkron programozást, ami elengedhetetlen mobilalkalmazások számára, amelyek hálózati kéréseket és háttérfeladatokat kezelnek. A nyelv erős tooling támogatása és növekvő ökoszisztémája teszik elsődleges választásunkká mobil fejlesztési projektekhez.</p>"
+    "description": "<p><strong><a href=\"https://kotlinlang.org/\">Kotlin</a></strong> is Campus CodeWorks' standard language for mobile application development, especially on Android. Kotlin's modern syntax, null-safety support and interoperability with Java make it an excellent choice for mobile development. Our mobile development teams use Kotlin to build native Android applications with improved code readability and less boilerplate than Java. Kotlin's coroutines support enables efficient asynchronous programming, which is essential for mobile apps that handle network requests and background work. The language's strong tooling and growing ecosystem make it our primary choice for mobile development projects.</p>"
   },
   {
     "name": "Rust",
     "ring": "Assess",
     "quadrant": "Languages & Frameworks",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://www.rust-lang.org/\">Rust</a></strong> egyre nagyobb figyelmet kap a Campus CodeWorks technológiai megbeszéléseiben, különösen teljesítmény-kritikus rendszerekhez és biztonság-érzékeny alkalmazásokhoz. Bár a Rust memóriabiztonsági garanciái vonzóak olyan rendszerekhez, amelyek érzékeny adatokat kezelnek, a tanulási görbe meredek a csapataink által már ismert nyelvekhez képest. A Rust-ot specifikus használati esetekhez értékeljük, mint például nagy teljesítményű adatfeldolgozó pipeline-ok és biztonság-kritikus microservices, de még nem kész a széles körű bevezetésre fejlesztési munkafolyamatainkban.</p>"
+    "description": "<p><strong><a href=\"https://www.rust-lang.org/\">Rust</a></strong> is receiving increasing attention in Campus CodeWorks technology discussions, especially for performance-critical systems and security-sensitive applications. Although Rust's memory-safety guarantees are attractive for systems handling sensitive data, the learning curve is steep compared to languages our teams already know. We evaluate Rust for specific use cases such as high-performance data pipelines and security-critical microservices, but it is not yet ready for broad adoption in our development workflows.</p>"
   },
   {
     "name": "Go",
     "ring": "Assess",
     "quadrant": "Languages & Frameworks",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://go.dev/\">Go</a></strong> a Campus CodeWorks által értékelt potenciális nyelv backend szolgáltatásokhoz, microservices-hez és cloud-native alkalmazásokhoz. A Go egyszerűsége, gyors fordítása, kiváló konkurencia támogatása goroutines-szel és erős standard könyvtára vonzóvá teszi skálázható backend rendszerek építéséhez. A nyelv teljesítmény jellemzői és beépített tooling támogatása teszteléshez és profilozáshoz vonzó nagy átviteli sebességű szolgáltatásokhoz. Azonban csapataink jelenleg erős szakértelemmel rendelkeznek a C# és .NET területén, ezért értékeljük, hogy a Go előnyei megérnék-e a tanulási görbét és ökoszisztéma migrációt. A Go-t specifikus használati esetekhez értékeljük, mint például microservices, API gateway-ek és CLI eszközök, ahol az erősségei egyértelmű előnyöket nyújtanak.</p>"
+    "description": "<p><strong><a href=\"https://go.dev/\">Go</a></strong> is a potential language under evaluation by Campus CodeWorks for backend services, microservices and cloud-native applications. Go's simplicity, fast compilation, strong concurrency support with goroutines and solid standard library make it attractive for building scalable backend systems. The language's performance characteristics and built-in tooling for testing and profiling are appealing for high-throughput services. However, our teams currently have strong expertise in C# and .NET, so we are assessing whether Go's benefits would justify the learning curve and ecosystem shift. We evaluate Go for specific use cases such as microservices, API gateways and CLI tools where its strengths offer clear advantages.</p>"
   },
   {
     "name": "Delphi",
     "ring": "Hold",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.embarcadero.com/products/delphi\">Delphi</a></strong> egy örökölt programozási nyelv és IDE, amelyet a Campus CodeWorks még mindig használ néhány meglévő projektben, különösen asztali alkalmazásokban és régebbi ügyfélrendszerekben. Bár a Delphi egykor népszerű választás volt Windows asztali fejlesztéshez, elavulttá vált a modern web és cross-platform technológiákhoz képest. Az ökoszisztéma zsugorodik, a fejlesztői szakértelem ritka, és a modern felhős szolgáltatásokkal és API-kkal való integráció kihívást jelent. Nem ajánljuk a Delphi-t új projektekhez, és javasoljuk a meglévő Delphi alkalmazások migrálását modern keretrendszerekre, mint a .NET/C# vagy Angular, amikor lehetséges.</p>"
+    "description": "<p><strong><a href=\"https://www.embarcadero.com/products/delphi\">Delphi</a></strong> is a legacy programming language and IDE still used by Campus CodeWorks in some existing projects, especially desktop applications and older client systems. Although Delphi was once a popular choice for Windows desktop development, it has become outdated compared to modern web and cross-platform technologies. The ecosystem is shrinking, developer expertise is scarce, and integration with modern cloud services and APIs is challenging. We do not recommend Delphi for new projects and advise migrating existing Delphi applications to modern frameworks such as .NET/C# or Angular where possible.</p>"
   },
   {
     "name": "Vue.js",
     "ring": "Hold",
     "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://vuejs.org/\">Vue.js</a></strong> egy frontend keretrendszer, amelyet a Campus CodeWorks korábban használt, de már nem ajánlott új projektekhez. Bár a Vue.js progresszív megközelítése és könnyű tanulási görbéje vonzó lehet, a Campus CodeWorks standard frontend keretrendszere az Angular, amely jobban illeszkedik a meglévő technológiai stack-hez és csapat szakértelemhez. A Vue.js-t használó meglévő projektek karbantartása továbbra is lehetséges, de új projektekhez az Angular-t ajánljuk a konzisztencia és hosszú távú támogatás érdekében.</p>"
+    "description": "<p><strong><a href=\"https://vuejs.org/\">Vue.js</a></strong> is a frontend framework previously used by Campus CodeWorks but no longer recommended for new projects. Although Vue.js's progressive approach and gentle learning curve can be appealing, Campus CodeWorks' standard frontend framework is Angular, which fits better with our existing technology stack and team expertise. Maintaining existing projects that use Vue.js remains possible, but we recommend Angular for new projects for consistency and long-term support.</p>"
   },
   {
     "name": "Docker",
     "ring": "Assess",
     "quadrant": "Tools",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://www.docker.com/\">Docker</a></strong> elengedhetetlenné vált a Campus CodeWorks alkalmazások konténerizálásához és konzisztens telepítések biztosításához fejlesztési, tesztelési és éles környezetek között. Csapataink a Docker-t használják alkalmazások, integrációk és adminisztratív eszközök csomagolásához. A konténerizáció leegyszerűsíti a függőségek kezelését és lehetővé teszi a szolgáltatások könnyebb skálázását. A Docker Compose különösen hasznos helyi fejlesztési környezetekhez, lehetővé téve a fejlesztők számára, hogy gyorsan elindítsanak összetett alkalmazás stack-eket adatbázisokkal, cache rétegekkel és microservices-szel.</p>"
+    "description": "<p><strong><a href=\"https://www.docker.com/\">Docker</a></strong> has become essential for containerising Campus CodeWorks applications and ensuring consistent deployments across development, test and production environments. Our teams use Docker to package applications, integrations and administrative tools. Containerisation simplifies dependency management and makes it easier to scale services. Docker Compose is especially useful for local development environments, allowing developers to spin up complex application stacks with databases, cache layers and microservices quickly.</p>"
   },
   {
     "name": "Kubernetes",
     "ring": "Assess",
     "quadrant": "Tools",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://kubernetes.io/\">Kubernetes</a></strong> a Campus CodeWorks által értékelt konténerizált alkalmazások nagy léptékű orchestrálásához. Bár a Kubernetes erős képességeket nyújt összetett microservices architektúrák kezeléséhez, jelentős működési komplexitást vezet be. Csapataink a Kubernetes-t olyan forgatókönyvekhez értékelik, ahol a magas rendelkezésre állás és az automatikus skálázás kritikus, mint például ügyfélportál rendszerek csúcsidőszakokban. Azonban kisebb projektek esetében egyszerűbb konténer orchestration megoldások lehetnek megfelelőbbek.</p>"
+    "description": "<p><strong><a href=\"https://kubernetes.io/\">Kubernetes</a></strong> is under evaluation by Campus CodeWorks for large-scale orchestration of containerised applications. Although Kubernetes offers strong capabilities for managing complex microservices architectures, it introduces significant operational complexity. Our teams evaluate Kubernetes for scenarios where high availability and automatic scaling are critical, such as client portal systems during peak periods. For smaller projects, simpler container orchestration solutions may be more appropriate.</p>"
   },
   {
     "name": "Jenkins",
     "ring": "Hold",
     "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.jenkins.io/\">Jenkins</a></strong> egykor munkahéj volt a CI/CD pipeline-okhoz a Campus CodeWorks-nál, de látjuk, hogy a csapatok modern alternatívákra migrálnak. Bár a Jenkins nagyon konfigurálható és kiterjedt plugin támogatással rendelkezik, felülete elavultnak tűnik, és a karbantartási terhelés jelentős. Az újabb CI/CD platformok, mint a GitHub Actions és GitLab CI jobb fejlesztői élményt és szorosabb integrációt nyújtanak verziókezelő rendszerekkel. Javasoljuk, hogy az új projekteket indító csapatok értékeljék a modern alternatívákat, bár a meglévő Jenkins telepítések továbbra is szolgálhatják céljukat.</p>"
+    "description": "<p><strong><a href=\"https://www.jenkins.io/\">Jenkins</a></strong> was once the workhorse for CI/CD pipelines at Campus CodeWorks, but we see teams migrating to modern alternatives. Although Jenkins is highly configurable and has extensive plugin support, its interface feels dated and the maintenance burden is significant. Newer CI/CD platforms such as GitHub Actions and GitLab CI offer a better developer experience and tighter integration with version control. We recommend that teams starting new projects evaluate modern alternatives, although existing Jenkins installations can continue to serve their purpose.</p>"
   },
   {
     "name": "GitHub Actions",
     "ring": "Adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://github.com/features/actions\">GitHub Actions</a></strong> a Campus CodeWorks preferált CI/CD megoldása GitHub-on tárolt projektekhez. A szoros integráció a GitHub repository-kkal, az egyszerű YAML-alapú konfiguráció és a bőkezű ingyenes szint oktatási intézmények számára kiváló választást jelent. Csapataink a GitHub Actions-t használják automatizált teszteléshez, staging környezetekbe történő telepítéshez és dokumentáció generálásához. A beépített akciók market place-je leegyszerűsíti a gyakori feladatokat, mint a tesztek futtatása, Docker image-ek építése és felhős platformokra történő telepítés.</p>"
+    "description": "<p><strong><a href=\"https://github.com/features/actions\">GitHub Actions</a></strong> is Campus CodeWorks' preferred CI/CD solution for projects hosted on GitHub. Tight integration with GitHub repositories, simple YAML-based configuration and a generous free tier for educational institutions make it an excellent choice. Our teams use GitHub Actions for automated testing, deployment to staging environments and documentation generation. The built-in Actions marketplace simplifies common tasks such as running tests, building Docker images and deploying to cloud platforms.</p>"
   },
   {
     "name": "TFS / Azure DevOps",
     "ring": "Adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://azure.microsoft.com/en-us/products/devops\">TFS / Azure DevOps</a></strong> a Campus CodeWorks napi használatban lévő verziókezelési és projektmenedzsment platformja. Az Azure DevOps integrált megoldást nyújt verziókezeléshez, build és release folyamatokhoz, work item követéshez és teszteléshez. Csapataink naponta használják a TFS/Azure DevOps-t kód tárolásához, CI/CD pipeline-ok kezeléséhez és projekt követéséhez. A platform átfogó eszközkészlete lehetővé teszi a teljes fejlesztési életciklus kezelését egy helyen, javítva a csapatok közötti együttműködést és a projekt láthatóságát.</p>"
+    "description": "<p><strong><a href=\"https://azure.microsoft.com/en-us/products/devops\">TFS / Azure DevOps</a></strong> is the version control and project management platform in daily use at Campus CodeWorks. Azure DevOps provides an integrated solution for version control, build and release pipelines, work item tracking and testing. Our teams use TFS/Azure DevOps daily for code storage, CI/CD pipeline management and project tracking. The platform's comprehensive toolset enables managing the full development lifecycle in one place, improving collaboration and project visibility.</p>"
   },
   {
     "name": "Confluence",
     "ring": "Adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://www.atlassian.com/software/confluence\">Confluence</a></strong> a Campus CodeWorks napi használatban lévő dokumentációs és tudásmenedzsment platformja. A Confluence lehetővé teszi a csapatok számára, hogy központilag tárolják, szervezzék és osszák meg dokumentációjukat, technikai specifikációikat és projekt információikat. Csapataink naponta használják a Confluence-t dokumentáció írásához, meeting jegyzőkönyvek tárolásához, technikai leírások karbantartásához és tudásbázis építéséhez. A platform keresési funkciói és strukturált oldalai segítik a gyors információ elérést és a tudás megosztását a szervezetben.</p>"
+    "description": "<p><strong><a href=\"https://www.atlassian.com/software/confluence\">Confluence</a></strong> is the documentation and knowledge management platform in daily use at Campus CodeWorks. Confluence enables teams to store, organise and share documentation, technical specifications and project information centrally. Our teams use Confluence daily for writing documentation, storing meeting notes, maintaining technical descriptions and building knowledge bases. The platform's search and structured pages support quick access to information and knowledge sharing across the organisation.</p>"
   },
   {
     "name": "PostgreSQL",
-    "ring": "Assess",
+    "ring": "Trial",
     "quadrant": "Platforms",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://www.postgresql.org/\">PostgreSQL</a></strong> a Campus CodeWorks standard relációs adatbázisa, amelyet megbízhatósága, funkció gazdagsága és nyílt forráskódú természete miatt választottunk. A PostgreSQL fejlett funkciói, mint a JSON támogatás, teljes szöveges keresés és robusztus tranzakció kezelés, alkalmasvá teszik különböző használati esetekhez. Az adatbázis erős ACID megfelelősége és adatintegritási funkciói kritikusak olyan alkalmazásokhoz, amelyek érzékeny adatokat kezelnek. A PostgreSQL aktív közössége és átfogó dokumentációja hatékonyan támogatja fejlesztői csapatainkat.</p>"
+    "description": "<p><strong><a href=\"https://www.postgresql.org/\">PostgreSQL</a></strong> is being trialed by Campus CodeWorks as the standard relational database, chosen for its reliability, feature richness and open-source nature. PostgreSQL's advanced features—including JSON support, full-text search and robust transaction handling—make it suitable for diverse use cases. The database's strong ACID compliance and data integrity features are critical for applications handling sensitive data. Its active community and comprehensive documentation effectively support our development teams.</p>"
   },
   {
     "name": "MongoDB",
     "ring": "Assess",
     "quadrant": "Platforms",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://www.mongodb.com/\">MongoDB</a></strong> a Campus CodeWorks által értékelt adatbázis rugalmas sémájú alkalmazásokhoz, mint például tartalomkezelő rendszerek és analitikai platformok. A MongoDB dokumentum modellje olyan forgatókönyvekhez illeszkedik, ahol az adatstruktúrák gyakran változnak, ami gyakori az oktatási technológiai projektekben. Azonban csapataink óvatosak a MongoDB használatával olyan alkalmazásokhoz, amelyek összetett tranzakciókat vagy szigorú adatkonzisztenciát igényelnek. A MongoDB-t specifikus használati esetekhez ajánljuk, mint például kurzus tartalmak, portfóliók és eseményadatok tárolása, ahol a séma rugalmassága egyértelmű előnyöket nyújt.</p>"
+    "description": "<p><strong><a href=\"https://www.mongodb.com/\">MongoDB</a></strong> is evaluated by Campus CodeWorks as a database for flexible-schema applications such as content management systems and analytics platforms. MongoDB's document model fits scenarios where data structures change frequently, which is common in educational technology projects. However, our teams are cautious about using MongoDB for applications that require complex transactions or strict data consistency. We recommend MongoDB for specific use cases such as storing course content, portfolios and event data where schema flexibility offers clear benefits.</p>"
   },
   {
     "name": "Redis",
-    "ring": "Assess",
+    "ring": "Trial",
     "quadrant": "Platforms",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://redis.io/\">Redis</a></strong> a Campus CodeWorks standard cache és session tárolási megoldása webalkalmazásokhoz. A Redis jelentősen javítja a teljesítményt nagy forgalmú rendszereknél. Csapataink a Redis-t használják gyakran elérhető adatok cache-eléséhez, felhasználói session-ök kezeléséhez és rate limiting implementálásához. A Redis pub/sub képességei lehetővé teszik valós idejű funkciókat, mint élő értesítések és chat rendszerek. A memóriában tárolt adatbázis sebessége és egyszerűsége elengedhetetlen komponenssé teszi a Campus CodeWorks alkalmazás architektúrájában.</p>"
+    "description": "<p><strong><a href=\"https://redis.io/\">Redis</a></strong> is being trialed by Campus CodeWorks as the standard cache and session store for web applications. Redis significantly improves performance in high-traffic systems. Our teams use Redis for caching frequently accessed data, managing user sessions and implementing rate limiting. Redis pub/sub capabilities enable real-time features such as live notifications and chat systems. The in-memory database's speed and simplicity make it an essential component in the Campus CodeWorks application architecture.</p>"
   },
   {
     "name": "RabbitMQ",
     "ring": "Adopt",
     "quadrant": "Platforms",
     "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://www.rabbitmq.com/\">RabbitMQ</a></strong> a Campus CodeWorks standard message broker-je eseményvezérelt és microservices-alapú rendszerekhez, beleértve a KAV vizsgaszervező rendszert. A RabbitMQ megbízható, aszinkron kommunikációt tesz lehetővé szolgáltatások között queue-k és topic-ok révén, javítva a decoupling-ot és a rugalmasságot. Csapataink a RabbitMQ-t használják domain eseményekhez, integrációs eseményekhez és háttérfeldolgozási munkaterhelésekhez. A RabbitMQ érett ökoszisztémája és bevált stabilitása alapvető komponenssé teszi backend platformunkban.</p>"
+    "description": "<p><strong><a href=\"https://www.rabbitmq.com/\">RabbitMQ</a></strong> is Campus CodeWorks' standard message broker for event-driven and microservices-based systems, including the KAV exam orchestration system. RabbitMQ enables reliable, asynchronous communication between services via queues and topics, improving decoupling and flexibility. Our teams use RabbitMQ for domain events, integration events and background processing workloads. RabbitMQ's mature ecosystem and proven stability make it a core component of our backend platform.</p>"
   },
   {
     "name": "MinIO",
