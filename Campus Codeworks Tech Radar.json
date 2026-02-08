@@ -4,7 +4,7 @@
         "ring": "Assess",
         "quadrant": "Platforms",
         "isNew": "TRUE",
-        "status": "Under evaluation",
+        "status": "new",
         "url": "https://business.udemy.com/udemy-for-business/",
         "description": "<p><strong><a href=\"https://business.udemy.com/udemy-for-business/\">Udemy for Education</a></strong> is the online learning and professional development platform used by Campus CodeWorks. Udemy provides access to a large course library covering technical skills, programming languages and professional development topics. Our teams use Udemy for employee training, skill development and keeping up with technology trends. The platform's structured learning paths, video-based content and progress-tracking features make both individual learning and team-wide upskilling effective. Udemy's integration options and reporting support Campus CodeWorks in tracking learning progress and ensuring continuous professional development across the organisation.</p>"
     },
@@ -13,6 +13,7 @@
         "ring": "Adopt",
         "quadrant": "Languages & Frameworks",
         "isNew": "FALSE",
+        "status": "no change",
         "description": "<p><strong><a href=\"https://angular.io/\">Angular</a></strong> is Campus CodeWorks' standard choice for building modern web applications and client portals. Our development teams use Angular in key projects, including the Neptun, KVAR and e-Titán systems. Angular's comprehensive framework with built-in routing, forms, HTTP client and dependency injection accelerates development of complex enterprise applications. Its structured approach and TypeScript-first philosophy ensure consistency across teams and projects. Angular's strong tooling, testing capabilities and enterprise-grade architecture make it ideal for large-scale applications requiring maintainability and long-term support.</p>"
     },
     {
@@ -20,6 +21,7 @@
         "ring": "Adopt",
         "quadrant": "Languages & Frameworks",
         "isNew": "FALSE",
+        "status": "moved out",
         "description": "<p><strong><a href=\"https://www.telerik.com/kendo-ui\">Telerik Kendo UI</a></strong> is the UI component library in use at Campus CodeWorks. Kendo UI provides a comprehensive set of components for building modern web applications, including data grids, form controls, calendars, charts and other interactive UI elements. Our teams use Kendo UI to build consistent, professional user interfaces that enable rapid development and easy maintainability. The library's strong Angular integration and TypeScript support align well with the Campus CodeWorks technology stack. Kendo UI's extensive documentation and support help developers implement UI components effectively.</p>"
     },
     {
