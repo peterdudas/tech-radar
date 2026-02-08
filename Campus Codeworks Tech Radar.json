@@ -43,6 +43,7 @@
         "ring": "Adopt",
         "quadrant": "Languages & Frameworks",
         "isNew": "FALSE",
+        "status": "moved in",
         "description": "<p><strong><a href=\"https://dotnet.microsoft.com/\">.NET 10</a></strong> is the .NET platform version used by Campus CodeWorks in its products. .NET 10 delivers improved performance, better memory management and new features that enhance application efficiency and scalability. Our teams use .NET 10 for backend services, APIs and microservices. The platform provides modern development patterns, strong tooling support and comprehensive libraries that support writing efficient and maintainable code. .NET 10's long-term support and stability are critical for Campus CodeWorks products.</p>"
     },
     {
