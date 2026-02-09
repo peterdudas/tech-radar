@@ -6,7 +6,7 @@
         "isNew": "TRUE",
         "status": "new",
         "url": "https://business.udemy.com/udemy-for-business/",
-        "description": "<p><strong><a href=\"https://business.udemy.com/udemy-for-business/\">Udemy for Education</a></strong> is the online learning and professional development platform used by Campus CodeWorks. Udemy provides access to a large course library covering technical skills, programming languages and professional development topics. Our teams use Udemy for employee training, skill development and keeping up with technology trends. The platform's structured learning paths, video-based content and progress-tracking features make both individual learning and team-wide upskilling effective. Udemy's integration options and reporting support Campus CodeWorks in tracking learning progress and ensuring continuous professional development across the organisation.</p>"
+        "description": "<p><strong><a href=\"https://business.udemy.com/udemy-for-business/\">Udemy  for Education</a></strong> is the online learning and professional development platform used by Campus CodeWorks. Udemy provides access to a large course library covering technical skills, programming languages and professional development topics. Our teams use Udemy for employee training, skill development and keeping up with technology trends. The platform's structured learning paths, video-based content and progress-tracking features make both individual learning and team-wide upskilling effective. Udemy's integration options and reporting support Campus CodeWorks in tracking learning progress and ensuring continuous professional development across the organisation.</p>"
     },
     {
         "name": "Angular University",
@@ -188,9 +188,18 @@
         "name": "AWS",
         "ring": "Adopt",
         "quadrant": "Platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "status":"new",
         "description": "<p><strong><a href=\"https://aws.amazon.com/\">Amazon Web Services (AWS)</a></strong> is Campus CodeWorks' primary cloud platform for hosting applications and services. AWS's education discount programme and broad service offering make it an excellent choice for institutions of all sizes. Our teams use AWS services such as EC2 for compute, RDS for managed databases, S3 for storage and CloudFront for content delivery. AWS's compliance certifications and security features are essential for handling educational data. The platform's scalability supports peak loads during registration periods and semester starts.</p>"
+    },
+    {
+        "name": "IIS",
+        "ring": "Hold",
+        "quadrant": "Platforms",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://www.iis.net/",
+        "description": "<p><strong><a href=\"https://www.iis.net/\">Internet Information Services (IIS)</a></strong> is the Windows web server currently in use at Campus CodeWorks for hosting some ASP.NET and legacy web applications. We use IIS where on-premise or Windows-based hosting is required. The organisation intends to phase out IIS in favour of cross-platform and cloud-native hosting: ASP.NET Core with Kestrel, containerised deployments (Docker), and cloud platforms (e.g. AWS) offer better portability, automation and alignment with our target architecture. We do not recommend IIS for new projects and plan to migrate existing IIS-hosted applications where feasible.</p>"
     },
     {
         "name": "Microservices architecture",
@@ -281,10 +290,18 @@
         "description": "<p><strong>Observability and monitoring</strong> with tools such as Prometheus, Grafana and application performance monitoring (APM) solutions is essential for maintaining reliable Campus CodeWorks services. In more complex systems such as the KAV exam orchestration platform, we complement this with an EFK stack (Elasticsearch, Fluentd/Fluent Bit, Kibana) for centralised logging and OpenTelemetry-based tracing (Jaeger/Tempo). Comprehensive monitoring enables our teams to detect issues before they impact users, understand system performance during peak periods and resolve problems quickly. We implement multi-level monitoring: infrastructure metrics, application performance and business metrics. Effective observability is critical for maintaining service-level agreements and ensuring a positive user experience.</p>"
     },
     {
+        "name": "Phasing out desktop applications",
+        "ring": "Hold",
+        "quadrant": "Techniques",
+        "isNew": "TRUE",
+        "status": "no change",
+        "description": "<p><strong>Phasing out desktop applications</strong> is the organisational practice of moving away from native desktop clients (e.g. Windows-only apps built with Delphi or legacy .NET WinForms/WPF) in favour of web and cross-platform solutions. Campus CodeWorks maintains some desktop applications for historical or client requirements but does not recommend new desktop-only projects. We prioritise web applications, responsive and mobile-first design, and where needed cross-platform or cloud-hosted tools, to reduce maintenance, improve reach and align with modern delivery and security practices.</p>"
+    },
+    {
         "name": "MSSQL",
         "ring": "Adopt",
         "quadrant": "Platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "status":"no change",
         "description": "<p><strong><a href=\"https://www.microsoft.com/sql-server\">Microsoft SQL Server (MSSQL)</a></strong> is the relational database management system in use at Campus CodeWorks. Our teams use MSSQL for enterprise applications where the Windows ecosystem and .NET integration are primary. MSSQL's strong transaction handling, security features and Azure SQL integration options provide a reliable choice for storing critical business data.</p>"
     },
@@ -292,7 +309,7 @@
         "name": "Oracle",
         "ring": "Adopt",
         "quadrant": "Platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "status":"no change",
         "description": "<p><strong><a href=\"https://www.oracle.com/database/\">Oracle Database</a></strong> is the relational database system in use at Campus CodeWorks. We use Oracle in projects and with clients where existing Oracle infrastructure or licensing agreements are already in place. Oracle's strong data integrity and scalability capabilities meet enterprise requirements.</p>"
     },
@@ -300,7 +317,7 @@
         "name": "ELK Stack",
         "ring": "Adopt",
         "quadrant": "Platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "status":"no change",
         "description": "<p><strong><a href=\"https://www.elastic.co/elasticstack\">ELK Stack</a></strong> (Elasticsearch, Logstash, Kibana) is the centralised log collection, search and visualisation platform in use at Campus CodeWorks. Our teams use the ELK stack to collect, search and build dashboards from application and infrastructure logs. The stack complements the observability strategy with support for detailed log analysis and debugging.</p>"
     },
@@ -308,7 +325,7 @@
         "name": "ChatGPT",
         "ring": "Adopt",
         "quadrant": "Tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "status":"no change",
         "description": "<p><strong><a href=\"https://chat.openai.com/\">ChatGPT</a></strong> is the AI-based assistant in use at Campus CodeWorks for documentation, code examples and general development questions. Our teams use ChatGPT for quick information lookup, drafting templates and documents, and brainstorming. The tool supports productivity while we adhere to organisational data-handling guidelines.</p>"
     },
