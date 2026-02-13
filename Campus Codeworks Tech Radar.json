@@ -58,6 +58,69 @@
         "description": "<p><strong><a href=\"https://dotnet.microsoft.com/\">.NET 10</a></strong> is the .NET platform version used by Campus CodeWorks in its products. .NET 10 delivers improved performance, better memory management and new features that enhance application efficiency and scalability. Our teams use .NET 10 for backend services, APIs and microservices. The platform provides modern development patterns, strong tooling support and comprehensive libraries that support writing efficient and maintainable code. .NET 10's long-term support and stability are critical for Campus CodeWorks products.</p>"
     },
     {
+        "name": "MassTransit",
+        "ring": "Trial",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "TRUE",
+        "status": "moved in",
+        "url": "https://masstransit.io/",
+        "description": "<p><strong><a href=\"https://masstransit.io/\">MassTransit</a></strong> is being trialed by Campus CodeWorks as a distributed application framework for .NET that provides a consistent abstraction over message transports (RabbitMQ, Azure Service Bus, etc.). MassTransit simplifies message-based communication, implements CQRS patterns and supports sagas for distributed workflows. We are evaluating it for microservices communication and event-driven architectures. The framework's abstraction layer makes it easier to switch message brokers and standardises message handling patterns across services.</p>"
+    },
+    {
+        "name": "MediatR",
+        "ring": "Trial",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "TRUE",
+        "status": "moved in",
+        "url": "https://github.com/jbogard/MediatR",
+        "description": "<p><strong><a href=\"https://github.com/jbogard/MediatR\">MediatR</a></strong> is being trialed by Campus CodeWorks as a simple mediator implementation for .NET that implements the mediator pattern for in-process messaging. MediatR enables request/response, commands, queries and notifications, supporting CQRS and reducing coupling between components. We use it to decouple handlers from controllers and implement vertical slice architecture. The library simplifies request handling and makes it easier to add cross-cutting concerns like validation and logging.</p>"
+    },
+    {
+        "name": "NSwag",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://github.com/RicoSuter/NSwag",
+        "description": "<p><strong><a href=\"https://github.com/RicoSuter/NSwag\">NSwag</a></strong> is the OpenAPI/Swagger toolchain in use at Campus CodeWorks for generating API documentation and client code from .NET controllers. NSwag generates Swagger/OpenAPI specifications, TypeScript clients and C# client proxies. Our teams use NSwag to maintain API contracts, generate frontend clients and ensure consistency between backend APIs and frontend consumption. The tool integrates well with ASP.NET Core and supports code generation workflows.</p>"
+    },
+    {
+        "name": "Swagger",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://swagger.io/",
+        "description": "<p><strong><a href=\"https://swagger.io/\">Swagger</a></strong> (OpenAPI) is the API documentation standard used by Campus CodeWorks for describing REST APIs. We use Swagger UI to provide interactive API documentation and testing interfaces for our APIs. Swagger specifications enable frontend teams to understand API contracts, generate client code and test endpoints. The standard is integrated into our ASP.NET Core applications via Swashbuckle or NSwag, supporting API-first development practices.</p>"
+    },
+    {
+        "name": "Central Package Management",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "TRUE",
+        "status": "no change",
+        "url": "https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management",
+        "description": "<p><strong><a href=\"https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management\">Central Package Management</a></strong> is the NuGet feature adopted by Campus CodeWorks for centralising package version management across solutions. Using a Directory.Packages.props file, we define package versions in one place, ensuring consistency and simplifying updates. This approach reduces version conflicts, makes dependency management transparent and supports security updates across multiple projects. Central Package Management is standard practice for our .NET solutions.</p>"
+    },
+    {
+        "name": "xUnit",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://xunit.net/",
+        "description": "<p><strong><a href=\"https://xunit.net/\">xUnit</a></strong> is the unit testing framework used by Campus CodeWorks for .NET applications. xUnit provides a clean, extensible testing API with strong support for async/await and parallel test execution. Our teams use xUnit for unit tests, integration tests and test-driven development. The framework integrates well with .NET tooling and CI/CD pipelines, supporting code coverage and test reporting. xUnit is our standard testing framework for backend services.</p>"
+    },
+    {
+        "name": "FluentValidation",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://docs.fluentvalidation.net/",
+        "description": "<p><strong><a href=\"https://docs.fluentvalidation.net/\">FluentValidation</a></strong> is the validation library used by Campus CodeWorks for building strongly-typed validation rules in .NET applications. FluentValidation provides a fluent interface for defining validation logic, making rules readable and maintainable. We use it to validate commands, DTOs and domain models, separating validation concerns from business logic. The library integrates with ASP.NET Core model validation and supports complex validation scenarios.</p>"
+    },
+    {
         "name": "Kotlin",
         "ring": "Adopt",
         "quadrant": "Languages & Frameworks",
@@ -290,6 +353,46 @@
         "description": "<p><strong>Observability and monitoring</strong> with tools such as Prometheus, Grafana and application performance monitoring (APM) solutions is essential for maintaining reliable Campus CodeWorks services. In more complex systems such as the KAV exam orchestration platform, we complement this with an EFK stack (Elasticsearch, Fluentd/Fluent Bit, Kibana) for centralised logging and OpenTelemetry-based tracing (Jaeger/Tempo). Comprehensive monitoring enables our teams to detect issues before they impact users, understand system performance during peak periods and resolve problems quickly. We implement multi-level monitoring: infrastructure metrics, application performance and business metrics. Effective observability is critical for maintaining service-level agreements and ensuring a positive user experience.</p>"
     },
     {
+        "name": "Domain-Driven Design (DDD)",
+        "ring": "Trial",
+        "quadrant": "Techniques",
+        "isNew": "TRUE",
+        "status": "moved in",
+        "description": "<p><strong>Domain-Driven Design (DDD)</strong> is being trialed by Campus CodeWorks as a strategic approach to software design that focuses on the core domain and domain logic. DDD helps teams model complex business domains, establish clear boundaries between contexts and align code structure with business understanding. We are applying DDD principles in new projects to improve domain modeling, reduce complexity and create more maintainable systems that reflect business needs. The approach supports better collaboration between technical and domain experts.</p>"
+    },
+    {
+        "name": "Vertical Slice Architecture",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "isNew": "TRUE",
+        "status": "no change",
+        "description": "<p><strong>Vertical Slice Architecture</strong> is the architectural pattern in use at Campus CodeWorks for organising code by feature or use case rather than by technical layers. This approach groups related code (handlers, models, validation) together vertically, making features easier to understand, test and modify. Vertical slices improve code discoverability and reduce coupling between features. We use this pattern in ASP.NET Core applications to simplify maintenance and enable faster feature development.</p>"
+    },
+    {
+        "name": "CQRS",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "isNew": "TRUE",
+        "status": "moved in",
+        "description": "<p><strong>CQRS (Command Query Responsibility Segregation)</strong> is the pattern adopted by Campus CodeWorks for separating read and write operations in applications. CQRS allows us to optimise read and write models independently, improving performance and scalability. We use CQRS with MediatR or MassTransit to handle commands and queries, enabling better separation of concerns and supporting complex business logic. The pattern fits well with our domain-driven design approach and microservices architecture.</p>"
+    },
+    {
+        "name": "Result pattern",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "isNew": "TRUE",
+        "status": "moved in",
+        "description": "<p><strong>Result pattern</strong> is the error-handling pattern adopted by Campus CodeWorks for representing success or failure of operations without throwing exceptions. The Result type encapsulates operation outcomes, making error handling explicit and improving code readability. We use this pattern in command handlers and service methods to handle business rule violations and validation errors gracefully. Result pattern reduces exception overhead and makes error paths more predictable and testable.</p>"
+    },
+    {
+        "name": "Global Exception handling",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "isNew": "FALSE",
+        "status": "no change",
+        "description": "<p><strong>Global Exception handling</strong> is the practice of centralising exception handling in ASP.NET Core applications using middleware. Campus CodeWorks uses global exception handlers to catch unhandled exceptions, log errors consistently and return appropriate HTTP responses. This approach ensures consistent error responses across APIs, improves debugging through structured logging and prevents sensitive error details from leaking to clients. Global exception handling is standard practice in our web applications.</p>"
+    },
+    {
         "name": "Phasing out desktop applications",
         "ring": "Hold",
         "quadrant": "Techniques",
@@ -328,6 +431,41 @@
         "isNew": "FALSE",
         "status":"no change",
         "description": "<p><strong><a href=\"https://chat.openai.com/\">ChatGPT</a></strong> is the AI-based assistant in use at Campus CodeWorks for documentation, code examples and general development questions. Our teams use ChatGPT for quick information lookup, drafting templates and documents, and brainstorming. The tool supports productivity while we adhere to organisational data-handling guidelines.</p>"
+    },
+    {
+        "name": "API Gateway (YARP, Ocelot, Kong)",
+        "ring": "Trial",
+        "quadrant": "Tools",
+        "isNew": "TRUE",
+        "status": "moved in",
+        "description": "<p><strong>API Gateway</strong> solutions such as YARP, Ocelot and Kong are being trialed by Campus CodeWorks for routing, load balancing and API management in microservices architectures. API gateways provide a single entry point for clients, handle cross-cutting concerns (authentication, rate limiting, logging) and simplify service discovery. We are evaluating YARP (Yet Another Reverse Proxy) for .NET applications, Ocelot for .NET API gateway functionality and Kong for enterprise API management. Gateways help decouple clients from backend services and support API versioning and transformation.</p>"
+    },
+    {
+        "name": "Nexus Repository",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://www.sonatype.com/products/sonatype-nexus-repository",
+        "description": "<p><strong><a href=\"https://www.sonatype.com/products/sonatype-nexus-repository\">Nexus Repository</a></strong> is the artifact repository manager used by Campus CodeWorks for hosting and managing NuGet packages, Docker images and other build artifacts. Nexus provides a centralised repository for internal packages, proxy caching for external dependencies and security scanning. Our teams use Nexus to publish internal libraries, cache public packages and ensure consistent dependency resolution across projects. The repository supports our CI/CD pipelines and package management workflows.</p>"
+    },
+    {
+        "name": "Hangfire",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://www.hangfire.io/",
+        "description": "<p><strong><a href=\"https://www.hangfire.io/\">Hangfire</a></strong> is the background job processing library used by Campus CodeWorks for .NET applications. Hangfire enables reliable background job execution, scheduled tasks and recurring jobs with persistence and monitoring. Our teams use Hangfire for long-running tasks, email sending, report generation and scheduled maintenance operations. The library provides a dashboard for monitoring job execution and integrates with SQL Server and other storage backends.</p>"
+    },
+    {
+        "name": "Jira",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "isNew": "FALSE",
+        "status": "no change",
+        "url": "https://www.atlassian.com/software/jira",
+        "description": "<p><strong><a href=\"https://www.atlassian.com/software/jira\">Jira</a></strong> is the issue tracking and project management tool used by Campus CodeWorks for managing development workflows, sprints and releases. Our teams use Jira to track tasks, bugs and features, plan sprints and monitor project progress. Jira integrates with Confluence, Git repositories and CI/CD tools, providing visibility into development activities. The tool supports agile methodologies and helps teams coordinate work across projects.</p>"
     },
     {
         "name": "Cursor AI",
